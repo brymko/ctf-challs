@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{89af26fb-495b-4240-bc03-748d4d75e2a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ParasiteValidator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugger.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="pvDebugger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="pvValidation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pvAntiDebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowCtl.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="singleton.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="pvDebugger.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="pvValidation.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSingleton.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="pvAntiDebug.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowCtl.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DebuggerCtlCodes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ParasiteValidator.rc" />
+  </ItemGroup>
+</Project>
